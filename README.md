@@ -14,7 +14,7 @@ Assignments for the python course by Rudransh Kumar Singh
   </h3>
 
 <h2>
-  Task 2: Create a Personalized Greeting
+  Task 2: Create a Personalized Greeting </h2>h2>
   <br>
   <h3></h3>It inputs the first name and last name from user and greets them using print function.
   </h3>
