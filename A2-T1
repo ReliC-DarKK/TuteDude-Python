@@ -1,0 +1,9 @@
+#EVEN: Divisible by 2 --> Remainder = 0 upon being divided by 2
+#ODD: NOT Divisible by 2 --> Remainder != 0 on being divided by 2
+#The '%' is used to calculate the remainder.
+
+num = int(input("Enter a number: "))
+if num%2 == 0:
+    print("Even")
+else:
+    print("Odd")
