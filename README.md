@@ -35,3 +35,8 @@ Assignments for the python course by Rudransh Kumar Singh
   Else it is odd.
   </h3>
 
+<h2>
+  Task 2: Count from 1 to 50 </h2>
+  <h3>
+  The logic uses a for loop to iterate over a sequence of numbers. The range() function generates integers starting from the first value (1) and stopping before the second value (51), ensuring numbers up     to 50 are included. Each number i in this sequence is then printed. 
+  </h3>
