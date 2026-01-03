@@ -18,6 +18,10 @@ Assignments for the python course by Rudransh Kumar Singh
   It inputs the first name and last name from user and greets them using print function.
   </h3>
 
+<br>
+<br>
+<br>
+
 <h1><b>
   ASSIGNMENT 2
 </b></h1>
