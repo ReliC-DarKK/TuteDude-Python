@@ -40,3 +40,27 @@ Assignments for the python course by Rudransh Kumar Singh
   <h3>
   The logic uses a for loop to iterate over a sequence of numbers. The range() function generates integers starting from the first value (1) and stopping before the second value (51), ensuring numbers up     to 50 are included. Each number i in this sequence is then printed. 
   </h3>
+  
+<br>
+<br>
+<br>
+
+  <h1><b>
+  ASSIGNMENT 3
+</b></h1>
+
+<h2>
+  Task 1: Create a factorial calculator function.</h2>
+  <h3> It uses recursion for printing the factorial..
+  <br>
+  It inputs an integer from user. 
+  We can write n! = n*(n-1)! ==> n!= n*(n-1)*(n-2)! and so on.
+  So the function calls n*factorial(n-1) and it runs as a recursive function to calculate the factorials of the subsequent terms till we reach 1.
+  </h3>
+
+<h2>
+  Task 2: Using math module calculate sqrt, natural log and sine. </h2>
+  <h3>
+   This code imports the math module.
+   Then using the functions in the math module (sqrt, log and sin), it calculates the required values.
+  </h3>
