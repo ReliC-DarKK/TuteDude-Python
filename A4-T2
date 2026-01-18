@@ -1,0 +1,22 @@
+"""
+Problem Statement: Write a Python program that:
+1.   Takes user input and writes it to a file named output.txt.
+2.   Appends additional data to the same file.
+3.   Reads and displays the final content of the file.
+"""
+
+txt = input("Enter text to write to the file: ")
+file_name = "output.txt"
+with open(file_name, "w") as file:
+    file.write(txt)
+txt_append = input("Enter text to append to the file: ")
+with open(file_name, "a") as file:
+    file.write("\n" + txt_append)
+
+print("===========================")
+print("Final content of the file: ")
+print("- - - - - - - - - - - - - -")
+with open(file_name, "r") as file:
+    for line in file:
+        print(line.strip())
+print("===========================")
