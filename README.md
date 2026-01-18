@@ -64,3 +64,27 @@ Assignments for the python course by Rudransh Kumar Singh
    This code imports the math module.
    Then using the functions in the math module (sqrt, log and sin), it calculates the required values.
   </h3>
+
+<br>
+<br>
+<br>
+
+  <h1><b>
+  ASSIGNMENT 4
+</b></h1>
+
+<h2>
+  Task 1: Read a file and handle errors.</h2>
+  <h3> It uses 'try' and 'except' for file handling.
+  <br>
+ We open and read contents of a file called "sample.txt". It then prints the contents in the file line by line.
+ IF the file doesn't exist, it uses the 'except' function to print that file isn't present.
+  </h3>
+
+<h2>
+  Task 2: Write and Append data to a file. </h2>
+  <h3>
+   We input the original text to a file called 'output.txt'.
+   It then asks the user to append the text in 'output.txt'.
+   It then prints the final content (og text + appended text) line by line.
+  </h3>
