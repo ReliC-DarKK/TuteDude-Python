@@ -1,0 +1,19 @@
+"""
+Write a Python program that:
+1.   Opens and reads a text file named sample.txt.
+2.   Prints its content line by line.
+3.   Handles errors gracefully if the file does not exist.
+"""
+
+file_name = "sample.txt"
+
+try:
+    with open(file_name, 'r') as fh:
+        line_num = 1
+        for line in fh:
+            print(f"{line_num}: {line.strip()}")
+            line_num += 1
+
+except FileNotFoundError:
+    print(f"Error: The file {file_name} was not found.")
+
