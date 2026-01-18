@@ -1,0 +1,13 @@
+"""
+USING THE math MODULE:
+Calculate:
+        ==>sqrt
+        ==>natural log
+        ==>sine(in radian)
+"""
+
+import math
+num = int(input("Enter a number: "))
+print(f"The square root of {num} is: {math.sqrt(num)}")
+print(f"The natural log of {num} is {math.log(num)}")
+print(f"The sine of{num} in radian is {round(math.sin(num),2)}")
