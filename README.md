@@ -88,3 +88,32 @@ Assignments for the python course by Rudransh Kumar Singh
    It then asks the user to append the text in 'output.txt'.
    It then prints the final content (og text + appended text) line by line.
   </h3>
+
+
+<h1><b>
+<br>
+<br>
+<br>
+  
+  ASSIGNMENT 5
+</b></h1>
+
+<h2>
+  Task 1: Create a Dictionary and Retrieve Missing Keys.
+</h2>
+
+<h3>
+  It uses a dictionary to store students' names and their marks.
+  <br>
+  It inputs a student's name from the user and checks whether the name exists in the dictionary. If the name is present, it prints the student's marks. Otherwise, it prints "Student not found."
+</h3>
+
+<h2>
+  Task 2: Extract and Reverse the First Five Elements of a List.
+</h2>
+
+<h3>
+  It uses list slicing to extract and reverse elements.
+  <br>
+  It creates a list of numbers from 1 to 10. It then extracts the first five elements using '[:5]' and reverses them using '[::-1]'. Finally, it prints the original list, the extracted elements, and the reversed elements.
+</h3>
